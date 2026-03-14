@@ -30,17 +30,20 @@ struct Patient {
     char sex;     // 'M' or 'F'
     int status;   // 0: Waiting for diagnosis, 1: Diagnosis complete, 2: Waiting for treatment, 3: Under treatment, 4: Treatment complete
 };
+```
 Info Record (struct Info)
+```
 struct Info {
     char ID[30];
     int record_num;
 };
+```
 Usage
 
 1.Compile the program:
-
+```
 gcc ClinicManager.c -o ClinicManager
-
+```
 2.Run the program:
 
 ./ClinicManager
@@ -48,6 +51,7 @@ gcc ClinicManager.c -o ClinicManager
 3.Menu options:
 
 Option	Action
+```
 1	Retrieve record number of a patient
 2	Get patient information by ID
 3	Modify patient status
@@ -55,6 +59,7 @@ Option	Action
 5	Delete patient
 6	List patients by status
 7	Exit
+```
 
 Note: First-time users should create empty clinic.dat and info.dat files if they do not exist.
 
