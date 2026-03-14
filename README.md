@@ -16,7 +16,6 @@ A simple **C-based patient management system** that uses binary files to store a
 - `ClinicManager.c` – Main C program containing all functionalities.
 - `clinic.dat` – Binary file storing all patient records (`struct Patient`).
 - `info.dat` – Binary file storing patient IDs and their record numbers for direct access.
-- `.gitignore` – Recommended to ignore compiled executables (`*.exe`) and temporary files (`temp_*.dat`).
 
 ## Data Structures
 
@@ -69,5 +68,4 @@ imlouli abderrahmane
 
 License
 
-This project is licensed under the MIT License. See the LICENSE
- file for details
+This project is licensed under the MIT License. See the LICENSE file for details
